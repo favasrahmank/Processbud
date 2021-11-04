@@ -1,0 +1,24 @@
+.points {
+    width: calc(33.33% - 30px);
+    padding: 40px 30px;
+    margin: 5px;
+    background-color: #fff;
+    box-shadow: 0px 66px 80px rgba(0, 0, 0, 0.02), 0px 36.5016px 29.2013px rgba(0, 0, 0, 0.0620983), 0px 17.7209px 14.1767px rgba(0, 0, 0, 0.0500662);
+    border-radius: 5px;
+}
+
+.points h4 {
+    font-family: "Gilroy-Bold";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.points img {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,26 @@
+ .keypoints {
+     padding: 100px 0;
+ }
+
+ .box {
+     width: calc(33.33% - 30px);
+     padding: 40px 30px;
+     margin: 5px;
+ }
+
+ .box h3 {
+     font-family: "Gilroy-Bold";
+     font-size: 32px;
+     font-weight: 700;
+     line-height: 36px;
+     color: #222D3A;
+     margin-top: 15px;
+     margin-bottom: 5px;
+ }
+
+ .box p {
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 24px;
+     color: #222D3A;
+ }

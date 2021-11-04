@@ -1,0 +1,55 @@
+.banner {
+    padding: 50px 15px;
+    background-color: #F5F5F5;
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+}
+
+.banner .row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .image-box {
+    max-width: 400px;
+}
+
+.banner .image-box svg {
+    width: 100%;
+}
+
+.banner .text-box {
+    flex: 1;
+    padding-right: 20px;
+    text-align: left;
+    max-width: 630px;
+}
+
+.banner .text-box h1 {
+    font-size: 48px;
+    font-family: "Gilroy-Bold";
+    line-height: 55px;
+    color: #222D3A;
+    margin: 0;
+}
+
+.banner .text-box p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #222D3A;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.banner .text-box .btn {
+    padding: 10px 25px;
+    font-size: 16px;
+    font-family: "Gilroy-Semibold";
+    line-height: 21px;
+    background: #113CFC;
+    color: #fff;
+    mix-blend-mode: normal;
+    box-shadow: 0px 3px 20px rgba(17, 60, 252, 0.4);
+    border-radius: 5px;
+}

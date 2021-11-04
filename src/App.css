@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+*, *::before, *::after {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    font-family: "Gilroy-Regular";
 }
 
-.App-link {
-  color: #61dafb;
+/* Import Fonts  */
+
+@font-face {
+    font-family: "Gilroy-Light";
+    src: local("Gilroy-Light"), url("./fonts/Gilroy/Gilroy-Light.ttf") format("truetype");
+    font-weight: 300;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: local("Gilroy-Regular"), url("./fonts/Gilroy/Gilroy-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: local("Gilroy-Medium"), url("./fonts/Gilroy/Gilroy-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gilroy-Semibold";
+    src: local("Gilroy-Semibold"), url("./fonts/Gilroy/Gilroy-Semibold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: local("Gilroy-Bold"), url("./fonts/Gilroy/Gilroy-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gilroy-Extrabold";
+    src: local("Gilroy-Extrabold"), url("./fonts/Gilroy/Gilroy-Extrabold.ttf") format("truetype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Gilroy-Black";
+    src: local("Gilroy-Black"), url("./fonts/Gilroy/Gilroy-Black.ttf") format("truetype");
+    font-weight: 900;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .wrapper {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapper {
+        max-width: 1120px;
+    }
+}
+
+.wrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
